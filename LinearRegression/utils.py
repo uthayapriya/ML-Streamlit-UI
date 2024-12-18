@@ -23,6 +23,6 @@ def predict_sales(parameters):
 def validate_input(input_lst):
     try:
         parameters = [int(x)/1000 for x in input_lst]
-        return False if not all(x > 0 for x in parameters) else parameters
+        return False if not all(x >= 0 for x in parameters) else parameters
     except Exception as e:
         return False
