@@ -1,4 +1,4 @@
 import streamlit as st
 
-st.title("Logistic Regression")
+st.title("Support Vector Machines")
 st.write("Soon")

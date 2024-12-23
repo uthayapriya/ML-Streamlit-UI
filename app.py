@@ -5,7 +5,10 @@ pages = {
         st.Page("LinearRegression/advertising-sales-prediction.py", title="Advertising Sales Prediction")
     ],
     "Logistic Regression": [
-        st.Page("LogisticRegression/later.py", title="TBD")
+        st.Page("LogisticRegression/airline-satisfaction.py", title="Airline Satisfaction Prediction")
+    ],
+    "Support Vector Machines": [
+        st.Page("SVM/soon.py", title="Soon")
     ]
 }
 

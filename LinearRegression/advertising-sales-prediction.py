@@ -5,6 +5,18 @@ st.title("Linear Regression")
 st.markdown("This model was trained using **Ridge** regression with a dummy dataset. Development was done only for practising my ML skills using scikit-learn.")
 st.markdown("<hr />", unsafe_allow_html=True)
 st.markdown("<h2>Advertisment Sales Prediction</h2>", unsafe_allow_html=True)
+
+st.write("Following were the steps taken to train the model:")
+st.write("1. **Data Cleaning**: Checked for missing values in dataset")
+st.write("2. **Exploratory Data Analysis**: Checked for the correlation and distribution of the data.")
+st.write("3. **Model Training**: Used Logistic Regression to train the model using test train split and Lasso Regression.")
+st.write("4. **Data Preprocessing**: Scaled the data using Standard Scaler.")
+st.write("5. **Model Evaluation**: Evaluated the model using R2 score, MSE, RMSE and MAE.")
+
+st.write("Github Repository: <a href='https://github.com/muhdjawad03/advertising Sales Prediction'>Advertising-sales-prediction</a>", unsafe_allow_html=True)
+
+st.markdown("<hr />", unsafe_allow_html=True)
+
 st.markdown("Amount spent on TV, Radio and Newspaper Ads are the independent parameters. The final sales value is the dependent value.")
 
 st.markdown("<br />", unsafe_allow_html=True)
